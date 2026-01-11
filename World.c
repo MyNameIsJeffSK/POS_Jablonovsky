@@ -17,29 +17,13 @@ _Bool try_openning(char * str) {
     return 1;
 }
 
-void new_simulation(World * world) {
 
-}
-
-void connect(World * world) {
-
-
-}
-
-void rerun(World * world) {
-
-}
 
 int chceckForObstacle(World * world, int row, int col) {
-    if (world->square[row][col].representation == Obstacle) {
+    if (world->square[row][col].representation == '#') {
         return 0;
     }
     return 1;
 }
 
-/*int main() {
-    World world;
-    initWorld(&world);
-    new_simulation(&world);
-    return 0;
-}*/
+

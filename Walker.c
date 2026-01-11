@@ -18,7 +18,5 @@ Direction getDirection(int num, Walker *walker) {
     return Left;
 }
 
-/*int main() {
 
-    return 0;
-}*/
+

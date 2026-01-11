@@ -1,12 +1,4 @@
-//
-// Created by jakub on 07/01/2026.
-//
-
 #include "Square.h"
-
-
-
-
 
 
 void initSquare(Square * square, _Bool hasObstacles) {
@@ -26,3 +18,4 @@ void set_finish(Square * square) {
 _Bool is_finished(Square * square) {
     return square->representation == Finish;
 }
+

@@ -1,6 +1,4 @@
-//
-// Created by jakub on 07/01/2026.
-//
+
 
 #ifndef SEMESTRALKA_SQUARE_H
 #define SEMESTRALKA_SQUARE_H
@@ -17,9 +15,10 @@ typedef enum {
 
 typedef struct {
     Representation representation;
-    _Bool successful_attempts;
+    int successful_attempts;
     int value;
     double priemer_posunov;
+
 }Square;
 
 void initSquare(Square * square, _Bool hasObstacles);

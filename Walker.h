@@ -32,3 +32,4 @@ Direction getDirection(int num, Walker * walker);
 
 #endif //SEMESTRALKA_WALKER_H
 
+

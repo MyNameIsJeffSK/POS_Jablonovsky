@@ -31,8 +31,6 @@ typedef struct World {
 }World;
 
 _Bool try_openning(char * str);
-void new_simulation(World * world);
-void connect(World * world);
-void rerun(World * world);
+int chceckForObstacle(World * world, int row, int col);
 
 #endif //_WORLD_H
