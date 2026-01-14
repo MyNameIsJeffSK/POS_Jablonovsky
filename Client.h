@@ -23,7 +23,7 @@ typedef struct {
     int right_p;
     int steps;
     int mode;
-    int type;  // Používajte int namiesto WorldType
+    int type;  
 } client_t;
 #pragma pack(pop)
 
